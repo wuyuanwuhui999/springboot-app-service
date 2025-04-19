@@ -2,6 +2,7 @@ package com.player.circle.service.imp;
 
 import com.alibaba.fastjson.JSON;
 import com.player.circle.entity.CircleEntity;
+import com.player.circle.handler.MyWebSocketHandler;
 import com.player.circle.mapper.CircleMapper;
 import com.player.circle.service.ICircleService;
 import com.player.common.entity.ResultEntity;
@@ -32,6 +33,9 @@ public class CircleService implements ICircleService {
 
     @Autowired
     private RedisTemplate redisTemplate;
+
+    @Autowired
+    private MyWebSocketHandler webSocketHandler;
 
     /**
      * @author: wuwenqiang
@@ -116,7 +120,7 @@ public class CircleService implements ICircleService {
             }
             circleEntity.setImgs(imgs);
         }
-
+        webSocketHandler.broadcastMessage("有一条新消息");
         circleEntity.setUserId(JwtToken.parserToken(token, UserEntity.class,secret).getId());
         return ResultUtil.success(circleMapper.insertCircle(circleEntity));
     }

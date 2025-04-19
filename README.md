@@ -1,5 +1,9 @@
 # springboot-app-service
 
+由于密钥丢失，原地址 https://github.com/wuyuanwuhui99/springboot-app-service  将不在更新，迁移到新地址   
+
+新地址：https://bgithub.xyz/wuyuanwuhui999/springboot-app-service，新地址将持续更新   
+
 使用springboot搭建的音乐，电影，书栈，视频教程，明日头条app的后台项目，所有数据来自互联网，使用python爬虫抓取，涉及，负载均衡，redis缓存，JwtToken权限验证，拦截器，日志记录，erauka服务治理，mybatis,spring-data-jpa,swagger等，持续更新中...   
 
 ================================APP界面预览================================   
@@ -33,11 +37,13 @@ sql数据来自于python爬虫项目，自动爬取第三方电影网站，由�
 
 ================================手机UI项目================================   
 flutter版本参见:   
-github地址：https://github.com/wuyuanwuhui99/flutter-movie-app-ui   
+github旧地址：https://github.com/wuyuanwuhui99/flutter-movie-app-ui   
+github新地址：https://github.com/wuyuanwuhui999/flutter-movie-app-ui   
 gitee地址：https://hub.nuaa.cf/wuyuanwuhui99/flutter-movie-app-ui
 
 flutter音乐项目参见:   
 github地址：https://github.com/wuyuanwuhui99/flutter-music-app-ui   
+github新地址：https://github.com/wuyuanwuhui999/flutter-music-app-ui    
 gitee地址：https://hub.nuaa.cf/wuyuanwuhui99/flutter-music-app-ui
 
 react native版本参见:   
@@ -49,10 +55,12 @@ gitee地址：https://hub.nuaa.cf/wuyuanwuhui99/android-java-movie-app-ui
 
 uniapp版本参见：
 github地址：https://github.com/wuyuanwuhui99/uniapp-vite-vue3-ts-movie-app-ui   
+github新地址：https://github.com/wuyuanwuhui999/uniapp-vite-vue3-ts-movie-app-ui 
 gitee地址：https://gitee/wuyuanwuhui99/uniapp-vite-vue3-ts-movie-app-ui  
 
 uniapp音乐项目参见：
 github地址：https://github.com/wuyuanwuhui99/uniapp-vite-vue3-ts-music-app-ui   
+github新地址：https://github.com/wuyuanwuhui999/uniapp-vite-vue3-ts-music-app-ui   
 gitee地址：https://gitee/wuyuanwuhui99/uniapp-vite-vue3-ts-music-app-ui  
 
 微信小程序版本参见：  
@@ -61,10 +69,12 @@ gitee地址：https://gitee/wuyuanwuhui99/uniapp-vite-vue3-ts-music-app-ui
 
 harmony鸿蒙版本参见:   
 github地址：https://github.com/wuyuanwuhui99/Harmony_movie_app_ui   
+github新地址：https://github.com/wuyuanwuhui999/harmony_movie_app_ui  
 gitee地址：https://hub.nuaa.cf/wuyuanwuhui99/Harmony_movie_app_ui
 
 harmony鸿蒙音乐项目参见:   
 github地址：https://github.com/wuyuanwuhui99/harmony_music_app_ui   
+github新地址：https://github.com/wuyuanwuhui999/harmony_music_app_ui    
 gitee地址：https://hub.nuaa.cf/wuyuanwuhui99/harmony_music_app_ui
 
 vue在线音乐项目：  
