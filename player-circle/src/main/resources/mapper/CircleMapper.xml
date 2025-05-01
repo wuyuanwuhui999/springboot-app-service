@@ -210,5 +210,9 @@
                 LEFT JOIN user t5 ON t4.reply_user_id = t5.id)t6
             ORDER BY t6.create_time DESC limit 0 ,5
     </select>
+
+    <select id="getCircleByLastUpdateTime"  resultType="Long">
+        SELECT COUNT(id) FROM circle WHERE `type` = #{type} and create_time > #{lastUpdateTime}
+    </select>
 </mapper>
 

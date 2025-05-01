@@ -21,4 +21,6 @@ public interface CircleMapper {
     List<HotCommentMovieEntity>getLastModifyMovie();
 
     Integer insertCircle(CircleEntity circleEntity);
+
+    Long getCircleByLastUpdateTime(String lastUpdateTime,String type);
 }

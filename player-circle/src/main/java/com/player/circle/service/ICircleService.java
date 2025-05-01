@@ -14,4 +14,6 @@ public interface ICircleService {
     ResultEntity getLastModifyMovie(String path);
 
     ResultEntity insertCircle(CircleEntity circleEntity, String token);
+
+    ResultEntity getCircleByLastUpdateTime(String lastUpdateTime,String type);
 }

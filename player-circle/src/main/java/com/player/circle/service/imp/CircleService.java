@@ -124,4 +124,14 @@ public class CircleService implements ICircleService {
         circleEntity.setUserId(JwtToken.parserToken(token, UserEntity.class,secret).getId());
         return ResultUtil.success(circleMapper.insertCircle(circleEntity));
     }
+
+    /**
+     * @author: wuwenqiang
+     * @description: 获取朋友圈最近更新的数量
+     * @date: 2025-04-20 11:48
+     */
+    @Override
+    public ResultEntity getCircleByLastUpdateTime(String lastUpdateTime,String type){
+        return ResultUtil.success(circleMapper.getCircleByLastUpdateTime(lastUpdateTime,type));
+    }
 }

@@ -51,4 +51,10 @@ public class CircleController {
     public ResultEntity saveSay(@RequestBody CircleEntity circleEntity, @RequestHeader("Authorization") String token) {
         return circleService.insertCircle(circleEntity,token);
     }
+
+    @ApiOperation("保存图片和文字")
+    @GetMapping("/circle-getway/getCircleByLastUpdateTime")
+    public ResultEntity getCircleByLastUpdateTime(String lastUpdateTime,String type) {
+        return circleService.getCircleByLastUpdateTime(lastUpdateTime,type);
+    }
 }
